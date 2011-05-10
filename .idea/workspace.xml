@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5a1eed-7861-4fef-a8f8-0fe9691deb14" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" />
     </list>
     <ignored path="tdvvideo.iws" />
@@ -40,7 +38,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="120" selection-end="120" vertical-scroll-proportion="0.25945947">
+            <state line="5" column="16" selection-start="66" selection-end="66" vertical-scroll-proportion="0.14414415">
               <folding />
             </state>
           </provider>
@@ -440,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="120" selection-end="120" vertical-scroll-proportion="0.25945947">
+        <state line="5" column="16" selection-start="66" selection-end="66" vertical-scroll-proportion="0.14414415">
           <folding />
         </state>
       </provider>
