@@ -1,3 +1,7 @@
+<%= content_for :head do %>
+	<title>Team Diamond Vision > Product Presentation</title>
+<% end %>
+
 <script type="text/javascript">
 	$(function(){
 		sublimevideo.ready(function(){
@@ -8,12 +12,8 @@
 
 <div class="mainArea">
 	<h1>Asea Product Presentation</h1>
-	<div class="menu">
-		<ul>
-			<li><%= link_to 'Asea Opportunity Presentation', opportunity_url %></li>
-		</ul>
-	</div>
- 	<div class="playerHolder">
+	<div><%= link_to 'Asea Opportunity Presentation', opportunity_url %></div>
+	<div class="playerHolder">
     <video id="aseaVideo" class="sublime" width="800" height="600" preload="none" autoplay="true">
       <source src="https://tdv-video.s3.amazonaws.com/47470106fafd880045d13a6844049839.mp4"/>
 	    <source src="https://tdv-video.s3.amazonaws.com/334809780ad046dadba400a02fbd6fbd.m3u8"/>

@@ -2,7 +2,7 @@ body {
 	background: black;
 }
 .mainArea{
-	width: 1100px;
+	width: 800px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -13,7 +13,6 @@ body {
 }
 h1 { color: white;}
 
-.menu {float: left; width: 150px; margin: 25px;}
 a {
 	color: white;
 }
