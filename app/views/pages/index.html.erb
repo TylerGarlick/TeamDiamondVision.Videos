@@ -1,17 +1,3 @@
-<style>
-	body {
-		background: black;
-	}
-	.mainArea{
-		width: 100%;
-	}
-	.playerHolder {
-		margin: 0 auto;
-		width: 800px;
-	}
-	h1 { color: white;}
-</style>
-
 <script type="text/javascript">
 	$(function(){
 		sublimevideo.ready(function(){
@@ -21,16 +7,19 @@
 </script>
 
 <div class="mainArea">
-	<h1>Site improvements coming soon...</h1>
-	<!-- 
+	<h1>Asea Product Presentation</h1>
+	<div class="menu">
+		<ul>
+			<li><%= link_to 'Asea Opportunity Presentation', opportunity_url %></li>
+		</ul>
+	</div>
  	<div class="playerHolder">
     <video id="aseaVideo" class="sublime" width="800" height="600" preload="none" autoplay="true">
-      <source src="https://s3.amazonaws.com/tdv-video/9890a53740a2330f571bbfdb419a4275.mp4"/>
-	    <source src="https://s3.amazonaws.com/tdv-video/8e9a2b072291c4350cf919d58d883019.m3u8"/>
-      <source src="https://s3.amazonaws.com/tdv-video/1d8d06125fec1df39d25012ca0d838c8.ogv"/>
-      <source src="https://s3.amazonaws.com/tdv-video/e41428b5440528521f1e112d932dc659.webm"/>
+      <source src="https://tdv-video.s3.amazonaws.com/47470106fafd880045d13a6844049839.mp4"/>
+	    <source src="https://tdv-video.s3.amazonaws.com/334809780ad046dadba400a02fbd6fbd.m3u8"/>
+      <source src="https://tdv-video.s3.amazonaws.com/1ac3160be07072de45258996227ba2a3.ogv"/>
+      <source src="https://tdv-video.s3.amazonaws.com/27ad96c70d76e416145ee18e71491004.webm"/>
     </video>
   </div>
-	-->
 </div>
 

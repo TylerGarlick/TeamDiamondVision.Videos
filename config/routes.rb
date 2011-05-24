@@ -1,6 +1,8 @@
 Tdvvideo::Application.routes.draw do
+  match 'opportunity' => 'pages#opportunity', :as => :opportunity
   root :to => "pages#index"
-
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,19 @@
+body {
+	background: black;
+}
+.mainArea{
+	width: 1100px;
+	text-align: center;
+	margin: 0 auto;
+}
+.playerHolder {
+	margin: 0 auto;
+	width: 800px;
+	float: left;
+}
+h1 { color: white;}
+
+.menu {float: left; width: 150px; margin: 25px;}
+a {
+	color: white;
+}
