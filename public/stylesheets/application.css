@@ -2,13 +2,13 @@ body {
 	background: black;
 }
 .mainArea{
-	width: 800px;
+	width: 900px;
 	text-align: center;
 	margin: 0 auto;
 }
 .playerHolder {
 	margin: 0 auto;
-	width: 800px;
+	width: 900px;
 	float: left;
 }
 h1 { color: white;}
